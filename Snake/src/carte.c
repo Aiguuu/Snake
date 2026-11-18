@@ -13,9 +13,8 @@ Carte *carte_creer(int largeur, int hauteur)
     // TODO Étape 1 : à écrire (voir le sujet) ; effacez alors les lignes (void) et A_FAIRE.
     // Indice : Deux malloc : la structure, puis le tableau de cases.
     //          Si le second échoue, il faut libérer le premier.
-    (void)largeur;
-    (void)hauteur;
-    A_FAIRE(1);
+    largeur;
+    hauteur;
     return NULL;
 }
 
